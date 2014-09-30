@@ -1,0 +1,47 @@
+・HTML基本構造
+<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+</body>
+</html>
+・CSS基本構造
+直接HTMLに書き込んでいくか、外部のcssからよみこんでいくか
+・HTMLとCSSの役割分担
+HTMLはウェブページ内の各要素の意味や情報構造を定義するもの
+CSSはHTMLと組み合わせて使用する言語でウェブページ内の装飾を定義するもの。
+・サンプル
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><link rel="stylesheet"
+href="mystyle.css"><script src="ex05-8.js"></script></head>
+<body><b>壮太</b><br>
+<img
+src="http://web.sfc.keio.ac.jp/~t14681sn/itbasic/starbucks_a8dc48bfa5920704c6cf89dd8b5a01f0.png">
+<h1>浪人</h1>
+小中高と剣道をやっていました。<br>
+将来は宇宙関係に就職したいです。<br>
+本を読むのと映画を観るのが好きです。<br>
+母と妹がバレエをやっているので、よく劇場に観に行きます。<br>
+埼玉県出身です。今は二時間半かけて通っていますが、今月末から湘南台に引っ
+越します。よかったら遊びにきてください。<br>
+パソコンは大学に入ってから始めたので、SFCでやっていくのが辛いです。<br>
+好きな音楽は洋楽とクラシックです。<br>
+洋楽ではMaroon 5のIf I Never See Your Face Again<br>
+http://www.youtube.com/watch?v=JHIPt8xmuiM<br>
+クラシックではハーシーケイのケークウォーク<br>
+http://www.mengelberg.net/classic/lmgcake1.html<br>
+が好きです。<br>
+<a href="http://web.sfc.keio.ac.jp/~t14681sn/itbasic/template
+/protocol2.html">プロトコルのページ</a><br>
+<a href="http://web.sfc.keio.ac.jp/~t14681sn/itbasic/template
+/gazouhozon2.html">画像保存の形式のページ</a><br>
+<a href="http://web.sfc.keio.ac.jp/~t14681sn/itbasic/template
+/IPadress2.html">IPアドレス、DNS,ルーターのページ</a><br>
+<img
+src="http://1.bp.blogspot.com/_BiXNTZPlaFQ/S1g9cGeCUVI/AAAAAAAABLI/3toVyiJRnzg/s320/maroon5-1%5B1%5D.jpg">
+<input type="button" value="あいさつ" onclick="sayhello();">
+
+
+</body></html>
