@@ -1,0 +1,22 @@
+function ichibann(a,b){
+c=a+b;
+return c;
+}
+
+function nibann(x,y){
+z=x*y;
+return z;
+}
+
+function sannbann(){
+nibann(x,2);
+ichibann(z,10);
+}
+var c;
+var x=2;
+var y;
+var z;
+
+sannbann();
+sannbann();
+sannbann();
